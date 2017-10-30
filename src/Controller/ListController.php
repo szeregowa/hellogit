@@ -8,7 +8,7 @@ class ListController
 
         foreach ($this->getStudentsFiles() as $file) {
             $students = simplexml_load_file($file->getPathname());
-            $list = $list + $students->xpath('//student');
+            $list = array_merge($list, $students->xpath('//student'));
         }
         
         return array(
