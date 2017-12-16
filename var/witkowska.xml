@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<students>
+    <student>
+        <firstname>Witkowska</firstname>
+        <lastname>Natalia</lastname>
+        <email>196833@uek.krakow.pl</email>
+        <github>studuek</github>
+        <group>jkanclerz</group>
+    </student>
+</students>
